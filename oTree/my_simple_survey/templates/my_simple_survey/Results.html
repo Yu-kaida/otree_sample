@@ -1,0 +1,26 @@
+{% extends "global/Page.html" %}
+{% load otree %}
+
+{% block title %}
+    Results
+{% endblock %}
+
+{% block content %}
+
+
+    <p>Your name is {{ player.name|json }} and your age is {{ player.age|json }}.</p>
+    <p>And your sex is 
+        {% if player.sex == 1 %}
+            male
+        {% elif player.sex == 2 %}
+            female
+        {% else %}
+            your data is wrong. So please enter your right number.
+            
+        {% endif %}.
+    </p>
+    {% next_button %}
+
+{% endblock %}
+
+
