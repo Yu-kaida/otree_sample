@@ -188,7 +188,7 @@ python-redis-lock==3.3.1
 pytz==2019.2
 PyWavelets==1.0.0
 pyxel==1.2.8
-PyYAML==3.13
+PyYAML==5.1
 pyzmq==17.1.2
 qrcode==6.1
 QtAwesome==0.4.4
